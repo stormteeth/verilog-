@@ -17,7 +17,18 @@ input clock;
 endmodule
 
 ### 第三題
+根據題目我使用gate level的方法打出4對1多工器。建置完後產生RTL
 
-![](result/Lab1-3- (1).png)
+最外層:
+
+![](result/Lab1-3-1.png)
+
+中間層:
+
+![](result/Lab1-3-2.png)
+
+寫好測試程式後的Simulation結果:
+
+![](result/Lab1-3-3.png)
 
 
