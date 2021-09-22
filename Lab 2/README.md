@@ -5,3 +5,15 @@
 
 ![](result/Lab 2-1.png)
 
+中間層:
+
+![](result/Lab 2-2.png)
+
+模擬結果:
+
+![](result/Lab 2-3.png)
+
+根據第二題所問會需要20ns的時間才能正常將結果跑出
+
+![](result/Lab 2-4.png)
+
