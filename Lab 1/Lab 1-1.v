@@ -1,4 +1,4 @@
-module lab2();
+module Lab1();
 reg[31:0] data;
 integer i;
 
