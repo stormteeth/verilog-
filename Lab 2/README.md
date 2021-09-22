@@ -3,5 +3,5 @@
 
 最外層:
 
-![](result/Lab2-1.png)
+![](result/Lab 2-1.png)
 
