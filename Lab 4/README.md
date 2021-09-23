@@ -19,7 +19,7 @@
 
 ![](result/Lab4-4.png)
 
-### [第三題](https://github.com/stormteeth/verilog-/blob/main/Lab%204/test_3.v)
+### [第三題](https://github.com/stormteeth/verilog-/blob/main/Lab%204/text_3.v)
 這題主要要看的是當兩個block同時執行時誰會先執行。可以看到如果用測試波型不太清楚。
 
 ![](result/Lab4-5.png)
