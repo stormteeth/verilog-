@@ -24,4 +24,15 @@
 
 ![](result/Lab4-5.png)
 
+結果用monitor也是在0ns時同時出現，可以知道對於initial begin這個層級來說都是同時執行的。
+
 ![](result/Lab4-6.png)
+
+### [第四題](https://github.com/stormteeth/verilog-/blob/main/Lab%204/test_4.v)
+第四題主要為驗證在第三題得到的結論
+
+![](result/Lab4-7.png)
+
+可以看到的確對initial begin一個大block來說兩個block是同時執行的
+
+![](result/Lab4-8.png)
