@@ -11,5 +11,12 @@ verilog-overview.pdf為基礎語法與概念的總複習，此文件非本人撰
 要求 : 1. 在1-bit Full Adder內, 其XOR的gate delay=5 ; AND的gate delay=3, OR的gate delay=2 。
 跑出波形並驗證其結果是否正確。
 2. 其4-bit Ripple Carry Adder計算a=1011, b=1101, c_in=0 , 產生結果輸出, 需經過多少時間 ?
+### Lab 3
+1. A full subtractor has three 1-bit inputs x, y, and z (previous borrow) and two 1-bit outputs D (difference) and B (borrow). The logic equations for D and B are as follows: 
+
+    D = x'.y'.z + x'.y.z' + x.y'.z' + x.y.z 
+
+    B = x'.y + x'.z +y.z 
+2. If the equations D, B have regular delays of 10 and 20 ns respectively, pleaseuse the same truth table as above to simulate the operation results. Please show the correct results of D, and B after the simulation. (Hint: Each test pattern has a delay of 10 ns, and thesimulation is finished at 200 ns.) 
 
 
