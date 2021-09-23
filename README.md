@@ -19,4 +19,30 @@ verilog-overview.pdf為基礎語法與概念的總複習，此文件非本人撰
     B = x'.y + x'.z +y.z 
 2. If the equations D, B have regular delays of 10 and 20 ns respectively, pleaseuse the same truth table as above to simulate the operation results. Please show the correct results of D, and B after the simulation. (Hint: Each test pattern has a delay of 10 ns, and thesimulation is finished at 200 ns.) 
 
+### Lab 4
+1. Give below is an initial block with blocking procedural assignments. At what simulation time is each statement executed? What are the intermediate and final values of a, b, c, d? 
+
+        a = 1'b0;
+        b = #15 1'b1;
+        c = #10 1'b0;
+        d = #25 {a,b,c};
+
+2. Repeat exercise 1 if nonblocking procedural assignments were used. 
+3. What is the order of execution of statements in the following Verilog code? Is there any ambiguity in the order of execution? What are the final values of a, b, c, d? 
+
+        a = 1'b0;
+        #0 b = c;
+        
+        c = 1'b1;
+        #0 d = a;
+        
+4. What is the final value of d in the following example? (Hint: See intra-assignment delays.) 
+        
+        b = 1'b0;
+        c = 1'b1;
+        #10 b = 1'b1;
+        
+        d = #20(b&c)
+   
+
 
