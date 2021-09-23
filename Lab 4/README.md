@@ -18,3 +18,10 @@
 可以看到在第25ns時d便可以正確地顯示出結果，而且與第一題相比也少等了一半的時間。故適時的使用non-blocking是不錯的選擇。
 
 ![](result/Lab4-4.png)
+
+### [第三題](https://github.com/stormteeth/verilog-/blob/main/Lab%204/test_3.v)
+這題主要要看的是當兩個block同時執行時誰會先執行。可以看到如果用測試波型不太清楚。
+
+![](result/Lab4-5.png)
+
+![](result/Lab4-6.png)
