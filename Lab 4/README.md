@@ -28,7 +28,7 @@
 
 ![](result/Lab4-6.png)
 
-### [第四題](https://github.com/stormteeth/verilog-/blob/main/Lab%204/test_4.v)
+### [第四題](https://github.com/stormteeth/verilog-/blob/main/Lab%204/text_4.v)
 第四題主要為驗證在第三題得到的結論
 
 ![](result/Lab4-7.png)
