@@ -5,4 +5,4 @@
 
 最外層:
 
-![](result/Lab)
+![](result/Lab4-1.png)
