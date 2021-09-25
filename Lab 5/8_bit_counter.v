@@ -4,9 +4,9 @@ reg clock;
 reg [7:0] q;
 integer i;
 initial begin:block1
-   i=0;
-   clock=1'b1;
-   q=0;
+   i = 0;
+   clock = 1'b1;
+   q = 5;
    while(1)begin
       if(i>=70)
          disable block1;
@@ -14,11 +14,11 @@ initial begin:block1
    end
 end
 always@(posedge clock)begin
-   i=i+1;
+   i = i + 1;
    if(i<67&&i>=5)
-      q=q+1;
+      q = q + 1;
    else
-      q=q;
+      q = q;
    end
 initial  begin
 $monitor($time,"number=%d,counter=%d",i,q);
