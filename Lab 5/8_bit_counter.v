@@ -10,7 +10,7 @@ initial begin:block1
    while(1)begin
       if(i>=70)
          disable block1;
-         #5 clock=~clock;
+      #5 clock = ~clock;
    end
 end
 always@(posedge clock)begin
