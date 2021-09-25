@@ -1,4 +1,4 @@
-### [題目]
+### [題目](https://github.com/stormteeth/verilog-#lab-1)
 ### 第一題
 經由題目要求只要在for迴圈中應相對應的奇數與偶數放入1與0即可
 
