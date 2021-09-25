@@ -81,3 +81,6 @@ verilog-overview.pdf為基礎語法與概念的總複習，此文件非本人撰
     ```
 4. Using a while loop, design a clock generator. Initial value of clock is 0. Time period for the clock is 10. 
     #### [答案](https://github.com/stormteeth/verilog-/tree/main/Lab%205)
+## Lab 6
+1. 利用Finite State Machine(FSM)寫法，寫出其主程式，並利用測試程式讓所有的狀態(從S0->S1->...->S4)都跑過一遍。假設其clock週期為20ns。
+   #### [答案](https://github.com/stormteeth/verilog-/tree/main/Lab%206) 
