@@ -15,5 +15,7 @@ reset=1'b0;
 #20 in=1'b0;//S4
 #20 $finish;
 end
-//initial $monitor($time,"in=%b,out=%b,state=%b",in,Out,state);
+initial begin
+    $monitor($time,"in=%b,out=%b,state=%b",in,Out,state);
+end
 endmodule
