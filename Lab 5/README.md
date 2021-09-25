@@ -26,5 +26,9 @@
 ![](result/Lab5-5.png)
 
 ### 問題三
+第三題的提到的新東西為fork，join。這兩個是成雙為一組的跟我們的begin就要有一個end是同樣的概念，那它們的功能就是將他們包起的內容視為non-blocking的感覺，我們可以看到
 
+![](result/Lab5-6.png)
+
+![](result/Lab5-7.png)
 
