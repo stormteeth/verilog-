@@ -26,9 +26,9 @@
 ![](result/Lab5-5.png)
 
 ### 問題三
-第三題的提到的新東西為fork，join。這兩個是成雙為一組的跟我們的begin就要有一個end是同樣的概念，那它們的功能就是將他們包起的內容視為non-blocking的感覺，我們可以看到
+第三題的提到的新東西為fork，join。這兩個是成雙為一組的跟我們的begin就要有一個end是同樣的概念，那它們的功能就是將他們包起的內容視為non-blocking的感覺，我們可以看到a和b都是y跑完5ns後同時一起執行所以才會a下20ns的延遲卻在25才出現，而下一句40ns後x改為1卻在65ns出現是因為需要等fork-join裡的狀態都執行完才能繼續，故為5+20+40=65ns。後面也是同等道理。
 
-![](result/Lab5-6.png)
+![](result/Lab5-6.png)![](result/Lab5-7.png)
 
-![](result/Lab5-7.png)
+
 
