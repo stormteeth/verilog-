@@ -5,8 +5,7 @@ output [2:0]state;
 reg Out;
 reg [2:0]state,nextstate;
 parameter S0=3'b000,S1=3'b001,S2=3'b010,S3=3'b011,S4=3'b100;
-always@(posedge clock or posedge reset)
-begin 
+always@(posedge clock or posedge reset)begin 
 $monitor($time,"state=%b,in=%b,out=%b,nextstate=%b",state,in,Out,nextstate);
    if(reset)
       state<=S0;
