@@ -9,7 +9,7 @@ initial begin
     reset=1'b0;
     #10 reset=1'b1;in=1'b0;
     #10 reset=1'b0;//S0
-    #20 in=1'b0;//S1
+    #20 in=1'b1;//S1
     #20 in=1'b1;//S2
     #20 in=1'b1;//S3
     #20 in=1'b0;//S4
