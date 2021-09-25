@@ -43,6 +43,38 @@ verilog-overview.pdf為基礎語法與概念的總複習，此文件非本人撰
         #10 b = 1'b1;
         
         d = #20(b&c)
-   
-
-
+        
+### Lab 5
+1. Design an 8-bit counter by using a forever loop, named block, and disabling of named block. The counter starts counting at count = 5 and finishes at count = 67. The count is incremented at positive edge of clock. The clock has a time period of 10. The counter counts through the loop only once and then is disabled. 
+2. Define a function to design an 8-function ALU that takes two 4-bit numbers a and b and computes a 5-bit result out based on a 3-bit select signal. Ignore overflow or underflow bits. Utilize the ISE to simulate your design.  
+    | Select Signal | Function Output ||
+    |-------|:-----:|------:|
+    | 3'b000   |  a  ||
+    | 3'b001   |  a + b  ||
+    | 3'b010   |  a - b  ||
+    | 3'b011   |  a / b  ||
+    | 3'b100   |  a % 1 (remainder) ||    
+    | 3'b101   |  a << 1 ||  
+    | 3'b110   |  a >> 1 ||   
+    | 3'b111   |  (a > b) (magnitude compare) ||
+3. Below is a block with nested sequential and parallel blocks. When does the block finish and what is the order of execution of events? At what simulation times does each statement finish execution? 
+    ```verilog
+    initial begin
+        x = 1'b0;
+        #5 y = 1'b1;
+        fork
+            #20 a = x;
+            #15 b = y;
+        join
+        #40 x = 1'b1;
+        fork
+            #10 p = x;
+            begin
+                #10 a = y;
+                #30 b = x;
+            end
+            #5 m = y;
+        join
+    end
+    ```
+4. Using a while loop, design a clock generator. Initial value of clock is 0. Time period for the clock is 10. 
