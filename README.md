@@ -84,3 +84,6 @@ verilog-overview.pdf為基礎語法與概念的總複習，此文件非本人撰
 ## Lab 6
 1. 利用Finite State Machine(FSM)寫法，寫出其主程式，並利用測試程式讓所有的狀態(從S0->S1->...->S4)都跑過一遍。假設其clock週期為20ns。
    #### [答案](https://github.com/stormteeth/verilog-/tree/main/Lab%206) 
+## Lab 7
+1. 請利用FSM寫法,撰寫紅綠燈控制器，其控制時序改為 : 綠燈維持5個clock cycle之後切換成黃燈，黃燈在2個clock cycle之後切換成紅燈，紅燈維持4個clock cycle。假設其clock週期為20ns。 
+   #### [答案](https://github.com/stormteeth/verilog-/tree/main/Lab%207)
