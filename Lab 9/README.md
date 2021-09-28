@@ -11,3 +11,8 @@ z0 0z 01
 
 ![](result/Lab9-1.png)
 ### 問題二
+將存在ini檔中的值讀取出來後暫存起來然後產生0~200的隨機亂數依序將33、66、z0、0z和01放入即可。
+
+![](result/Lab9-2.png)![](result/Lab9-3.png)![](result/Lab9-4.png)![](result/Lab9-5.png)![](result/Lab9-6.png)![](result/Lab9-7.png)
+
+可以看到我重新於[197]放入33、[111]放入66、[197]放入33、[73]放入z0、[59]放入0z和[69]放入01。
