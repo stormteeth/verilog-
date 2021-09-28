@@ -8,5 +8,6 @@ input [3:0]b;
 multi_opter = a * b;
 endfunction
 ```
+![](result/Lab8-1.png)
 ### 問題二
 這題主要是要模擬電腦中檢查是否有位元錯誤的檢查方法，使用了最簡單的檢查方式:同位元檢查法。
