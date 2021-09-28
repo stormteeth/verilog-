@@ -87,3 +87,8 @@ verilog-overview.pdf為基礎語法與概念的總複習，此文件非本人撰
 ## Lab 7
 1. 請利用FSM寫法,撰寫紅綠燈控制器，其控制時序改為 : 綠燈維持5個clock cycle之後切換成黃燈，黃燈在2個clock cycle之後切換成紅燈，紅燈維持4個clock cycle。假設其clock週期為20ns。 
    #### [答案](https://github.com/stormteeth/verilog-/tree/main/Lab%207)
+
+## Lab 8
+1. Define a function to multiply two 4-bit numbers a and b. The output is an 8-bit value. Invoke the function by using stimulus and check results.
+2. Define a task to compute even parity of a 16-bit number. The result is a 1-bit value that is assigned to the output after three positive edges of clock. (Hint: use a repeat loop in the task)
+   #### [答案](https://github.com/stormteeth/verilog-/tree/main/Lab%208)
