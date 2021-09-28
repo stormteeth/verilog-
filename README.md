@@ -94,7 +94,19 @@ verilog-overview.pdf為基礎語法與概念的總複習，此文件非本人撰
    #### [答案](https://github.com/stormteeth/verilog-/tree/main/Lab%208)
  
 ## Lab 9
-1. Use the 8-byte memory initialization example on page 42. Modify the file to read data in hexadecimal. Write a new data file with the following addresses and data values. Unspecified locations are not initialized. Utilize the ISE to simulate your design. 
+1. Use the 8-byte memory initialization example.
+   ```verilog
+   module test; 
+   reg[7:0]memory[0:7]; 
+   integer i; 
+   initial begin 
+      $readmemh("init.dat",memory); 
+      for(i=0;i<8;i=i+1) 
+         $display("Memory[%0d]=%h",i,memory[i]); 
+   end 
+   endmodule 
+   ```
+   Modify the file to read data in hexadecimal. Write a new data file with the following addresses and data values. Unspecified locations are not initialized. Utilize the ISE to simulate your design. 
 
    |Address|Data|
    |-------|---:|
