@@ -92,3 +92,17 @@ verilog-overview.pdf為基礎語法與概念的總複習，此文件非本人撰
 1. Define a function to multiply two 4-bit numbers a and b. The output is an 8-bit value. Invoke the function by using stimulus and check results.
 2. Define a task to compute even parity of a 16-bit number. The result is a 1-bit value that is assigned to the output after three positive edges of clock. (Hint: use a repeat loop in the task)
    #### [答案](https://github.com/stormteeth/verilog-/tree/main/Lab%208)
+ 
+## Lab 9
+1. Use the 8-byte memory initialization example on page 42. Modify the file to read data in hexadecimal. Write a new data file with the following addresses and data values. Unspecified locations are not initialized. Utilize the ISE to simulate your design. 
+
+   |Address|Data|
+   |-------|---:|
+   |   1   | 33 |
+   |   2   | 66 |
+   |   4   | z0 |
+   |   5   | 0z |
+   |   6   | 01 |
+   
+2. Use the function of random number generation ($random(r_seed)) to generate five address values between 0-200, and fit them into data as the table of question (1) . Also write a stimulus to read and display them. 
+   #### [答案](https://github.com/stormteeth/verilog-/tree/main/Lab%209)
