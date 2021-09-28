@@ -11,3 +11,22 @@ endfunction
 ![](result/Lab8-1.png)
 ### 問題二
 這題主要是要模擬電腦中檢查是否有位元錯誤的檢查方法，使用了最簡單的檢查方式:同位元檢查法。
+```verilog
+task separatly;
+output b;
+input [15:0]a;
+integer c;
+begin
+   c=a[0]^a[1]^a[2]^a[3]^a[4]^a[5]^a[6]^a[7]^a[8]^a[9]^a[10]^a[11]^a[12]^a[13]^a[14]^a[15];
+   if(c==0)
+      b=0;
+   else
+      b=1;
+end
+endtask
+```
+那這裡又用到新的功能，名為task。基本上和funtion是相似的，那他們的差別又在哪呢。funtion最主要的功能在於輸入多個數值進行算數運算後只產生一結果值後輸出；task就比要偏向可以多個輸出只要將output設定好即可，而且task可以用上時間模擬，例如我們常用的always、posedge之類的。
+
+![](result/Lab8-2.png)
+
+![](result/Lab8-3.png)
